@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higher order Functions</title>
+</head>
+<body>
+    <script>
+        const number=[10,11,12,13,14,15]
+        const result=number.filter(checkEven);
+        function checkEven(even) {
+            return even%2==0;
+        }
+        console.log(result)
+    </script>
+</body>
+</html>

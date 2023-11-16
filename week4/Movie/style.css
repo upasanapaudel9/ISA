@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(13, 186, 157);
+    text-align: left;
+    font-style: normal;
+    height:100%;
+    width:100%;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: rgb(166, 186, 203);
+}
+.searchcontainer{
+    align-items: center;
+    justify-content: center;
+}

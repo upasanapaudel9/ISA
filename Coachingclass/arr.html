@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* a=prompt("Enter a number");
+           i=1;
+           for (i=1;i<=10;i++){
+              console.log(`${a}*${i}=${a*i}`);
+            }*/
+    
+            let number=[1,5,7,9,10,13,16];
+            
+            let evennumber=number.filter((num)=>{
+                return num%2==0;
+            })
+            let oddnumber=number.filter((num)=>{
+                return num%2!=0;
+            })
+            let sumofevennumber=evennumber.reduce((a,b)=>{
+                return a+b;
+            })
+
+            let sumofoddnumber=oddnumber.reduce((a,b)=>{
+                return a+b;  
+            })
+            console.log(sumofevennumber);
+            console.log(sumofoddnumber);
+    </script>
+</body>
+</html>

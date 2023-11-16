@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+  <div class="container">
+    <div class="search">
+      <input type="text" class="search-bar" placeholder="Enter any city name..." />
+      <button>Search</button>
+    </div>
+    <div class="weather">
+      <h2 class="city">Weather in</h2>
+      <p class="date"></p>
+      <p class="description"></p>
+      <img class="icon" src="" alt="Weather Icon" />
+      <p class="temperature"></p>
+      <p class="humidity"></p>
+      <p class="windspeed"></p>
+      <p class="pressure"></p>
+    </div>
+  </div>
+    <form action="weatherapp.php" id="form" method="get">
+        <button type="submit" id="button">Weather data of past 7 days</button>
+    </form>
+  <script src="weather.js"></script>
+</body>
+</html>

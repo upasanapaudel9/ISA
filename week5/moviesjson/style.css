@@ -1,0 +1,59 @@
+ody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color:rgb(94, 124, 233);
+    background-color:black;
+    }
+    
+    header {
+    background-color:rgb(5, 135, 209);
+    color:rgb(198, 49, 212);
+    padding: 20px;
+    }
+
+    main {
+    padding: 20px;
+ }
+
+    h1, h2 {
+    margin: 0;
+    }
+
+    .movies-group {
+    margin-bottom: 20px;
+    }
+    
+    .movies-group h3 {
+    margin-top: 0;
+    }                                           
+
+    .movie {
+    border: 1px solid white;
+    padding: 20px;
+    margin-bottom: 10px;
+    }
+
+ .movie p {
+    margin: 5px 0;
+ }
+
+    label {
+     display: block;
+    margin-top: 10px;
+    }
+    
+    input[type="text"],
+    input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    }
+
+    button {
+    margin-top: 12px;
+    padding: 7px 10px;
+    background-color: rgb(42, 69, 206);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+     }

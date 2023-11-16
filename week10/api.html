@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>local storage</h1>
+
+    <script>
+        //sessiomStorage.setItem("name","upasana"); session storage ma store garna yesari lekhne
+        localStorage.setItem("name","upasana");
+        localStorage.setItem("address","kirtipur");
+
+        console.log(localStorage.getItem("name"));
+
+        localStorage.removeItem("name"); //name matra remove hunxa
+
+        localStorage.clear(); //local storage ma vako sabai data clear hunxa
+    </script>
+</body>
+</html>
